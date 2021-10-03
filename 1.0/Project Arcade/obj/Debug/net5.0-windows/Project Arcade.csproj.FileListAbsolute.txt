@@ -1,0 +1,5 @@
+C:\Users\Poesjesaaier\source\repos\Project Arcade\Project Arcade\obj\Debug\net5.0-windows\Project Arcade.csproj.AssemblyReference.cache
+C:\Users\Poesjesaaier\source\repos\Project Arcade\Project Arcade\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Poesjesaaier\source\repos\Project Arcade\Project Arcade\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Poesjesaaier\source\repos\Project Arcade\Project Arcade\obj\Debug\net5.0-windows\Project Arcade_MarkupCompile.cache
+C:\Users\Poesjesaaier\source\repos\Project Arcade\Project Arcade\obj\Debug\net5.0-windows\Project Arcade_MarkupCompile.lref
