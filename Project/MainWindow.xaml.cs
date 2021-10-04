@@ -24,5 +24,15 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        static private bool isSpeedBoostActive;
+        static void ActiveSpeedBoost()
+        {
+            if (isSpeedBoostActive)
+            {
+                isSpeedBoostActive = true;
+                speed += 5;
+            }
+        }
     }
 }
