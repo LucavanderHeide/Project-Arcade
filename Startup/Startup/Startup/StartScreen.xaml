@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.StartScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="StartScreen" Height="450" Width="800" WindowState="Maximized" Background="Beige">
+    <Grid>
+    <StackPanel VerticalAlignment="Bottom">
+            <Button x:Name="Start" Margin="0" FontSize="100" VerticalAlignment="Bottom" Content="Start" Background="Orange">
+            </Button>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Top">
+            <Image Source="Images/Nijntje png.jpg" Width="219" Height="297">
+            </Image>
+        </StackPanel>
+    </Grid>
+</Window>
