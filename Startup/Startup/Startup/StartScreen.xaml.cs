@@ -21,5 +21,12 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void BtnMainMenu(object sender, RoutedEventArgs e)
+        {
+            Startup.MainMenu objMainMenu = new Startup.MainMenu();
+            Visibility = Visibility.Hidden;
+            objMainMenu.Show();
+        }
     }
 }

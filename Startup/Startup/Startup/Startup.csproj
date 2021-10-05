@@ -7,4 +7,12 @@
     <AssemblyName>1</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Nijntje png.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Nijntje png.jpg" />
+  </ItemGroup>
+
 </Project>

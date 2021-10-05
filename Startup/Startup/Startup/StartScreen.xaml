@@ -5,14 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="StartScreen" Height="450" Width="800" WindowState="Maximized" Background="Beige">
+        Title="StartScreen" Height="720" Width="1280" WindowState="Maximized" Background="Beige">
     <Grid>
-    <StackPanel VerticalAlignment="Bottom">
-            <Button x:Name="Start" Margin="0" FontSize="100" VerticalAlignment="Bottom" Content="Start" Background="Orange">
+        <StackPanel VerticalAlignment="Bottom">
+            <Button x:Name="Start" 
+                    Click="BtnMainMenu" 
+                    Margin="0" 
+                    FontSize="100" 
+                    VerticalAlignment="Bottom" 
+                    Content="Start" 
+                    Background="Orange">
             </Button>
         </StackPanel>
         <StackPanel VerticalAlignment="Top">
-            <Image Source="Images/Nijntje png.jpg" Width="219" Height="297">
+            <Image Source="Images/Nijntje png.jpg" Width="400" Height="550" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
             </Image>
         </StackPanel>
     </Grid>

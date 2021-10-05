@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bartb\\source\\repos\\WpfApp1\\WpfApp1\\Startup.csproj": {}
+    "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bartb\\source\\repos\\WpfApp1\\WpfApp1\\Startup.csproj": {
+    "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bartb\\source\\repos\\WpfApp1\\WpfApp1\\Startup.csproj",
+        "projectUniqueName": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
         "projectName": "1",
-        "projectPath": "C:\\Users\\bartb\\source\\repos\\WpfApp1\\WpfApp1\\Startup.csproj",
-        "packagesPath": "C:\\Users\\bartb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bartb\\source\\repos\\WpfApp1\\WpfApp1\\obj\\",
+        "projectPath": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
+        "packagesPath": "C:\\Users\\Bart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bartb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
