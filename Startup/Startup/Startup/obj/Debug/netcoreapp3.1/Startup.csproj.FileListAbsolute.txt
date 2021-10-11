@@ -46,3 +46,27 @@ C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arca
 C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.genruntimeconfig.cache
 C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\MainMenu.g.cs
 C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\MainMenu.baml
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.exe
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.deps.json
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.runtimeconfig.json
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.runtimeconfig.dev.json
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.dll
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\bin\Debug\netcoreapp3.1\1.pdb
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.csproj.AssemblyReference.cache
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\MainMenu.g.cs
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\SplashScreen.g.cs
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\StartScreen.g.cs
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1_MarkupCompile.cache
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1_MarkupCompile.lref
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\MainMenu.baml
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\SplashScreen.baml
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\StartScreen.baml
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1.g.resources
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.AssemblyInfoInputs.cache
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.AssemblyInfo.cs
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.csproj.CoreCompileInputs.cache
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1.dll
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1.pdb
+C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.genruntimeconfig.cache

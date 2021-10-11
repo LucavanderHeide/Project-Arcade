@@ -22,6 +22,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+        /// Start button functie -> gaat naar hoofdmenu
         private void BtnMainMenu(object sender, RoutedEventArgs e)
         {
             Startup.MainMenu objMainMenu = new Startup.MainMenu();

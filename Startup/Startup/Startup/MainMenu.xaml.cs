@@ -21,5 +21,20 @@ namespace Startup
         {
             InitializeComponent();
         }
+        /// Start het spel, moet eerst gemerged worden
+        private void BtnSpelen(object sender, RoutedEventArgs e)
+        {
+
+        }
+        /// Opent pagina met de highscores zien, moet eerst gemerged worden
+        private void BtnLeaderboard(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        /// Stopt het spel
+        private void BtnQuit(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

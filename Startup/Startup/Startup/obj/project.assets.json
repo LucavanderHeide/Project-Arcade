@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
+      "projectUniqueName": "C:\\Users\\Bart\\Documents\\GitHub\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
       "projectName": "1",
-      "projectPath": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
+      "projectPath": "C:\\Users\\Bart\\Documents\\GitHub\\Project-Arcade\\Startup\\Startup\\Startup\\Startup.csproj",
       "packagesPath": "C:\\Users\\Bart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bart\\OneDrive - NHL Stenden\\Documents\\GitHub\\Github\\Github\\Project-Arcade\\Startup\\Startup\\Startup\\obj\\",
+      "outputPath": "C:\\Users\\Bart\\Documents\\GitHub\\Project-Arcade\\Startup\\Startup\\Startup\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bart\\AppData\\Roaming\\NuGet\\NuGet.Config",
