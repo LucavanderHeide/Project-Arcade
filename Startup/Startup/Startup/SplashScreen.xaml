@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        ResizeMode="NoResize" WindowStyle="None" Background="Yellow" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" WindowStyle="None" Background="Orange" WindowStartupLocation="CenterScreen"
         Title="SplashScreen" Height="250" Width="350">
     <StackPanel VerticalAlignment="Center">
         <Image Source="/Images/Nijntje png.jpg" Height="150" Width="110">
         </Image>
         <TextBlock FontSize="30" Foreground="Black" TextAlignment="Center">
-            Nijntje Tron Game
+            Lijntjes doen met Nijntje
         </TextBlock>
         <TextBlock FontSize="10" Foreground="Gray" TextAlignment="Center">
             Door Groep 33, all rights incorporated

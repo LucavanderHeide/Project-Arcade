@@ -12,9 +12,7 @@ using System.Windows.Shapes;
 
 namespace Startup
 {
-    /// <summary>
     /// Interaction logic for MainMenu.xaml
-    /// </summary>
     public partial class MainMenu : Window
     {
         public MainMenu()

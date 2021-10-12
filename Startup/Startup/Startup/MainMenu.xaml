@@ -11,6 +11,17 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
+        <TextBlock FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold" FontStyle="Italic" Foreground="Orange">
+            <Run.Foreground>  
+            <LinearGradientBrush>  
+                <GradientStop Color="Green" Offset="0.0" />  
+                <GradientStop Color="Purple" Offset="0.25" />  
+                <GradientStop Color="Orange" Offset="0.5" />  
+                <GradientStop Color="Blue" Offset="0.75" />  
+            </LinearGradientBrush>  
+        </Run.Foreground>
+            Lijntjes doen met Nijntje
+        </TextBlock>
         <Button x:Name="Spelen" 
                     Click="BtnSpelen" 
                     FontSize="50" 
