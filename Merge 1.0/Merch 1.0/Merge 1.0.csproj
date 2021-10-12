@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Merch_1._0</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Player1L.png" />
+    <None Remove="Images\Player1N.png" />
+    <None Remove="Images\Player1R.png" />
+    <None Remove="Images\Player1S.png" />
+    <None Remove="Images\Player2L.png" />
+    <None Remove="Images\Player2N.png" />
+    <None Remove="Images\Player2R.png" />
+    <None Remove="Images\Player2S.png" />
+    <None Remove="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
+    <None Remove="Nijntje.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Player1L.png" />
+    <Resource Include="Images\Player1N.png" />
+    <Resource Include="Images\Player1R.png" />
+    <Resource Include="Images\Player1S.png" />
+    <Resource Include="Images\Player2L.png" />
+    <Resource Include="Images\Player2N.png" />
+    <Resource Include="Images\Player2R.png" />
+    <Resource Include="Images\Player2S.png" />
+    <Resource Include="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
+    <Resource Include="Nijntje.png" />
+  </ItemGroup>
+
+</Project>

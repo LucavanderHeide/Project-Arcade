@@ -1,0 +1,23 @@
+﻿<Window x:Class="Merch_1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Merch_1._0"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="1080" Width="1920" Background="Orange">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="Nijntje" Source="/Nijntje.png" Margin="689,454,689,801"/>
+        <Button x:Name="Spelen"
+                FontSize="50"
+                Content="Start"
+                Background="Green"
+                Margin="730,1080,730,589" Click="Spelen_Click"/>
+
+    </Grid>
+</Window>
