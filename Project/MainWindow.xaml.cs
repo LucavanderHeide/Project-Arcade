@@ -14,10 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Project
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+{    
     public partial class MainWindow : Window
     {
         private object paintCanvas;
@@ -69,4 +66,14 @@ namespace Project
             }
         }
     }
+    private void generateFood() 
+    {
+        int maxXpos = pbCanvas.Size.Width / Settings.Width;
+        int maxYpos = pbCanvas.Size.Height / Settings.Height;
+        Random rnd = new Random();
+
+
+    }
+
+
 }
