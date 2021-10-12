@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:Startup"
         mc:Ignorable="d"
         Title="MainMenu" Height="450" Width="800" WindowState="Maximized" Background="Beige">
-    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="450" Width="800">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="71*"></RowDefinition>
+            <RowDefinition Height="259*"/>
         </Grid.RowDefinitions>
         <TextBlock FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold" FontStyle="Italic" Foreground="Orange">
             <Run.Foreground>  
@@ -20,25 +21,25 @@
                 <GradientStop Color="Blue" Offset="0.75" />  
             </LinearGradientBrush>  
         </Run.Foreground>
-            Lijntjes doen met Nijntje
+            Lijntjes maken met Nijntje
         </TextBlock>
         <Button x:Name="Spelen" 
                     Click="BtnSpelen" 
                     FontSize="50" 
                     VerticalAlignment="Top" 
                     Content="Start" 
-                    Background="Orange" Height="70" Margin="306,50,306,0"/>
+                    Background="Orange" Height="70" Margin="300,33,300,0" Grid.RowSpan="2" Grid.Row="1"/>
         <Button x:Name="Leaderboard" 
                     Click="BtnLeaderboard" 
                     FontSize="30" 
-                    VerticalAlignment="Center" 
+                    VerticalAlignment="Top" 
                     Content="Leaderboard" 
-                    Background="Orange" Height="70" Margin="306,0,306,0"/>
+                    Background="Orange" Height="70" Margin="300,64,300,0" Grid.Row="2"/>
         <Button x:Name="Quit"
                     Click="BtnQuit" 
                     FontSize="30" 
-                    VerticalAlignment="Bottom" 
+                    VerticalAlignment="Top" 
                     Content="Spel stoppen" 
-                    Background="Orange" Height="70" Margin="306,310,306,0"/>
+                    Background="Orange" Height="70" Margin="300,177,300,0" Grid.Row="2"/>
     </Grid>
 </Window>

@@ -11,7 +11,7 @@
         <Image Source="/Images/Nijntje png.jpg" Height="150" Width="110">
         </Image>
         <TextBlock FontSize="30" Foreground="Black" TextAlignment="Center">
-            Lijntjes doen met Nijntje
+            Lijntjes maken met Nijntje
         </TextBlock>
         <TextBlock FontSize="10" Foreground="Gray" TextAlignment="Center">
             Door Groep 33, all rights incorporated
