@@ -1,0 +1,29 @@
+﻿<Window x:Class="PlayerMovement.Gamewindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayerMovement"
+        mc:Ignorable="d"
+        Title="Gamewindow" Height="450" Width="800">
+    <Canvas x:Name="GameCanvas" KeyDown="GameCanvas_KeyDown" KeyUp="GameCanvas_KeyUp" Focusable="True">
+        <Rectangle x:Name="Player1" 
+                   Fill="red" 
+                   Height="50" 
+                   Width="50"
+                   Canvas.Left="20"
+                   Canvas.Top="20">
+        </Rectangle>
+
+        <Rectangle x:Name="Player2" 
+                   Fill="yellow" 
+                   Height="50" 
+                   Width="50"
+                   Canvas.Left="720"
+                   Canvas.Top="340">
+        </Rectangle>
+
+
+
+    </Canvas>
+</Window>
