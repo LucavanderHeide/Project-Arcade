@@ -37,7 +37,14 @@ namespace Merch_1._0
 
         private void Menubtn(object sender, RoutedEventArgs e)
         {
+            Highscore scoremenu = new Highscore();
+            scoremenu.Visibility = Visibility.Visible;
+            this.Visibility = Visibility.Hidden;
+        }
 
+        private void Quitapp(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

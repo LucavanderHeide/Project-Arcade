@@ -8,12 +8,16 @@
         
         Title="MainWindow" Height="1080" Width="1920" Background="Orange">
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Image x:Name="Nijntje" Source="/Nijntje.png" Margin="689,454,689,801"/>
-        <Image x:Name="Ballon" Source="/ballon.png" Margin="1434,874,185,669" />
+
+        <Image x:Name="Nijntje" Source="/Images/Nijntje.png" Margin="654,454,654,693"/>
+
+        <Image x:Name="Ballon"  Source="Images/ballon.png" Margin="1434,874,185,669" />
+
         <Button x:Name="Spelen"
                 FontSize="80"
                 Content="Start"
@@ -23,11 +27,7 @@
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="20"/>
                 </Style>
-            </Button.Resources>    
-            
-            
-            
-            
+            </Button.Resources>
         </Button>
 
         <Button x:Name="Menu" Margin="131,675,1538,1222" Background="{x:Null}" BorderBrush="{x:Null}" Click="Menubtn"
@@ -36,6 +36,19 @@
                 <Image Source="/Images/Menu.png" />
             </StackPanel>
 
+        </Button>
+
+        <Button x:Name="Quit" Margin="1652,570,94,1352" Background="{x:Null}" BorderBrush="{x:Null}" Click="Quitapp">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="80"/>
+                </Style>
+            </Button.Resources>
+            
+            
+            <StackPanel>
+                <Image Source="/Images/Quit.png" />
+            </StackPanel>
         </Button>
     </Grid>
 </Window>

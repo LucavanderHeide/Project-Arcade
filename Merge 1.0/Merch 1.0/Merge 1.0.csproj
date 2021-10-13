@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ballon.png" />
     <None Remove="Images\Menu.png" />
     <None Remove="Images\Player1L.png" />
     <None Remove="Images\Player1N.png" />
@@ -26,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ballon.png" />
+    <Resource Include="Images\ballon.png" />
     <Resource Include="Images\Menu.png" />
     <Resource Include="Images\Player1L.png" />
     <Resource Include="Images\Player1N.png" />
@@ -38,9 +37,9 @@
     <Resource Include="Images\Player2S.png" />
     <Resource Include="Images\Quit.png" />
     <Resource Include="Images\Reset1.png" />
-    <Resource Include="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
-    <Resource Include="Nijntje.png" />
-    <Resource Include="Reset.png" />
+    <Resource Include="Images\kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
+    <Resource Include="Images\Nijntje.png" />
+    <Resource Include="Images\Reset.png" />
   </ItemGroup>
 
 </Project>
