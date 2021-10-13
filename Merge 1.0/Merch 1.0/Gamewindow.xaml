@@ -1,0 +1,101 @@
+﻿<Window x:Class="Merch_1._0.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Merch_1._0"
+        mc:Ignorable="d"
+       
+        Title="Gamewindow" Height="1080" Width="1920">
+    <Canvas x:Name="Gamecanvas" Focusable="True" KeyDown="Gamecanvas_KeyDown" KeyUp="Gamecanvas_KeyUp" Background="#27CF59">
+
+        <Rectangle x:Name="Player1" 
+                   Fill="red" 
+                   Height="111" 
+                   Width="115"
+                   Canvas.Left="177"
+                   Canvas.Top="279">
+        </Rectangle>
+
+        <Rectangle x:Name="Player2" 
+                   Fill="yellow" 
+                   Height="112" 
+                   Width="115"
+                   Canvas.Left="1631"
+                   Canvas.Top="768">
+        </Rectangle>
+
+        <Label x:Name="Player1Score"
+               Content="Score player 1: 0"
+               Foreground="Red"
+               FontSize="32"
+               FontWeight="Bold" Canvas.Left="39" Canvas.Top="56" Height="75" Width="345"/>
+
+        <Label  x:Name="Player2Score"
+                Content="Score player 2: 0"
+                Foreground="Yellow"
+                FontSize="32"
+                FontWeight="Bold" Canvas.Left="1454" Canvas.Top="54" Height="75" Width="345"/>
+
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="22" Width="1845" Canvas.Top="143" Canvas.Left="39" />
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="21" Width="1845" Canvas.Top="1001" Canvas.Left="39" />
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="859" Width="22" Canvas.Top="163" RenderTransformOrigin="0.5,0.5" Canvas.Left="39" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="860" Width="22" Canvas.Top="151" RenderTransformOrigin="0.5,0.5" Canvas.Left="1862" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Button 
+                x:Name="Quit"
+                Width="82"
+                Height="84" 
+                Canvas.Left="1804" 
+                Canvas.Top="45" Click="QuitGame" BorderBrush="{x:Null}" Background="{x:Null}">
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel>
+                <Image Source="/Images/Quit.png" />
+            </StackPanel>
+        </Button>
+
+        <Button
+            x:Name="Reset"
+            Width="82"
+            Height="84" 
+            Canvas.Left="920" 
+            Canvas.Top="45" BorderBrush="White" Background="White" Click="ResetGame"
+            >
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+                <StackPanel>
+                 <Image Source="/Images/Reset1.png" />
+            </StackPanel>
+            
+            
+        </Button>
+
+    </Canvas>
+</Window>
