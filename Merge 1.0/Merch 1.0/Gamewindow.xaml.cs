@@ -26,8 +26,11 @@ namespace Merch_1._0
         private bool MoveRight = false, MoveLeft = false, MoveUp = false, MoveDown = false;
         private bool MoveRight2 = false, MoveLeft2 = false, MoveUp2 = false, MoveDown2 = false;
         private DispatcherTimer GameTimer = new DispatcherTimer();
-        int speed1 = 10;
-        int speed2 = 10;
+
+        
+
+        int speed1 = 7;        
+        int speed2 = 7;
 
 
         public Window1()
@@ -41,6 +44,12 @@ namespace Merch_1._0
             Gamecanvas.Focus();
         }
 
+        
+        /// <summary>
+        /// Hierin staan de bewegingen en het maken van de lijnen voor player 1 en 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void GameEngine(object sender, EventArgs e)
         {
             PlayerBrush1.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player1S.png"));
@@ -109,8 +118,164 @@ namespace Merch_1._0
                 PlayerBrush2.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player2S.png"));
                 Player2.Fill = PlayerBrush2;
             }
+
+            //lijnen maken Player 1
+            if (MoveRight)
+            {
+                Ellipse Lijn1 = new Ellipse
+                {
+                    Tag = "Lijn1",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Red,
+                    Stroke = Brushes.Red
+
+                };
+
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
+                Gamecanvas.Children.Add(Lijn1);
+            }
+
+
+            if (MoveLeft)
+            {
+                Ellipse Lijn1 = new Ellipse
+                {
+                    Tag = "Lijn1",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Red,
+                    Stroke = Brushes.Red
+
+                };
+
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
+                Gamecanvas.Children.Add(Lijn1);
+            }
+
+            if (MoveUp)
+            {
+                Ellipse Lijn1 = new Ellipse
+                {
+                    Tag = "Lijn1",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Red,
+                    Stroke = Brushes.Red
+
+                };
+
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
+                Gamecanvas.Children.Add(Lijn1);
+            }
+
+            if (MoveDown)
+            {
+                Ellipse Lijn1 = new Ellipse
+                {
+                    Tag = "Lijn1",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Red,
+                    Stroke = Brushes.Red
+
+                };
+
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
+                Gamecanvas.Children.Add(Lijn1);
+            }
+
+
+            //lijn maken player 2
+
+            if (MoveDown2)
+            {
+                Ellipse Lijn2 = new Ellipse
+                {
+                    Tag = "Lijn2",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Yellow,
+                    Stroke = Brushes.Yellow
+
+                };
+
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
+                Gamecanvas.Children.Add(Lijn2);
+            }
+
+            if (MoveUp2)
+            {
+                Ellipse Lijn2 = new Ellipse
+                {
+                    Tag = "Lijn2",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Yellow,
+                    Stroke = Brushes.Yellow
+
+                };
+
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
+                Gamecanvas.Children.Add(Lijn2);
+            }
+
+            if (MoveRight2)
+            {
+                Ellipse Lijn2 = new Ellipse
+                {
+                    Tag = "Lijn2",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Yellow,
+                    Stroke = Brushes.Yellow
+
+                };
+
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
+                Gamecanvas.Children.Add(Lijn2);
+            }
+
+            if (MoveLeft2)
+            {
+                Ellipse Lijn2 = new Ellipse
+                {
+                    Tag = "Lijn2",
+                    Height = 20,
+                    Width = 20,
+                    Fill = Brushes.Yellow,
+                    Stroke = Brushes.Yellow
+
+                };
+
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
+                Gamecanvas.Children.Add(Lijn2);
+            }
+
+            
+
+
+
+
+
+
+
         }
 
+        
+        /// <summary>
+        /// Verandert status naar true als knop wordt ingedrukt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Gamecanvas_KeyDown(object sender, KeyEventArgs e)
         {
             //player 1
@@ -156,7 +321,14 @@ namespace Merch_1._0
                 MoveDown2 = true;
             }
         }
-
+        
+        
+        
+        /// <summary>
+        /// Verandert status naar false als de toets wordt losgelaten
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Gamecanvas_KeyUp(object sender, KeyEventArgs e)
         {
             //player 1
@@ -201,6 +373,34 @@ namespace Merch_1._0
             {
                 MoveDown2 = false;
             }
+        }
+
+        
+        
+        /// <summary>
+        /// Via deze knop wordt het spel afgesloten en het start scherm opgestart
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void QuitGame(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            MainWindow Start = new MainWindow();
+            Start.Visibility = Visibility.Visible;
+            
+        }
+
+
+        /// <summary>
+        /// Via deze code wordt het speelveld opnieuw gestart
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ResetGame(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            Window1 game = new Window1();
+            game.Visibility = Visibility.Visible;
         }
     }
 }

@@ -35,7 +35,7 @@
                 Content="Score player 2: 0"
                 Foreground="Yellow"
                 FontSize="32"
-                FontWeight="Bold" Canvas.Left="1528" Canvas.Top="56" Height="75" Width="345"/>
+                FontWeight="Bold" Canvas.Left="1454" Canvas.Top="54" Height="75" Width="345"/>
 
         <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="22" Width="1845" Canvas.Top="143" Canvas.Left="39" />
         <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="21" Width="1845" Canvas.Top="1001" Canvas.Left="39" />
@@ -60,6 +60,42 @@
             </Rectangle.RenderTransform>
         </Rectangle>
 
+        <Button 
+                x:Name="Quit"
+                Width="82"
+                Height="84" 
+                Canvas.Left="1804" 
+                Canvas.Top="45" Click="QuitGame" BorderBrush="{x:Null}" Background="{x:Null}">
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+            <StackPanel>
+                <Image Source="/Images/Quit.png" />
+            </StackPanel>
+        </Button>
+
+        <Button
+            x:Name="Reset"
+            Width="82"
+            Height="84" 
+            Canvas.Left="920" 
+            Canvas.Top="45" BorderBrush="White" Background="White" Click="ResetGame"
+            >
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+                <StackPanel>
+                 <Image Source="/Images/Reset1.png" />
+            </StackPanel>
+            
+            
+        </Button>
 
     </Canvas>
 </Window>
