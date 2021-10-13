@@ -34,5 +34,10 @@ namespace Merch_1._0
             this.Visibility = Visibility.Hidden;
            
         }
+
+        private void Menubtn(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
