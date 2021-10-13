@@ -13,11 +13,16 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Image x:Name="Nijntje" Source="/Nijntje.png" Margin="689,454,689,801"/>
+        <Image x:Name="Ballon" Source="/ballon.png" Margin="180,852,1439,691" />
         <Button x:Name="Spelen"
                 FontSize="50"
                 Content="Start"
                 Background="Green"
-                Margin="730,1080,730,589" Click="Spelen_Click"/>
+                Margin="730,1379,730,589" Click="Spelen_Click"/>
+
+        
+
+
 
     </Grid>
 </Window>

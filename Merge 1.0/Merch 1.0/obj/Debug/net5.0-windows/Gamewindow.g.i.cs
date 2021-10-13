@@ -93,7 +93,7 @@ namespace Merch_1._0 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Merge 1.0;V1.0.0.0;component/gamewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Merge 1.0;component/gamewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Gamewindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
