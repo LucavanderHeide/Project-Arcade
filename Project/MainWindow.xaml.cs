@@ -15,26 +15,23 @@ using System.Windows.Shapes;
 
 namespace Project
 {    
-    public partial class MainWindow : Window
+    public partial class PowerUp : Window
     {
         private object paintCanvas;
         private object bonusPoints;
         private object currentPosition;
         private int headSize;
 
-        public MainWindow()
+        public PowerUp()
         {
             InitializeComponent();
-        }               
 
-        public Window1() 
-        {
             // Initiëren wortel
             for (int n = 0; n < 10; n++)
             {
                 paintBonus(n);
             }
-        }
+        }        
         private void paintBonus(int index)
         {
             Point bonusPoint = new Point();
