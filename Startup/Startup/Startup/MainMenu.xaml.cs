@@ -19,10 +19,12 @@ namespace Startup
         {
             InitializeComponent();
         }
-        /// Start het spel, moet eerst gemerged worden
+        /// Laat character select zien
         private void BtnSpelen(object sender, RoutedEventArgs e)
         {
-
+            Startup.Charselect objCharselect = new Startup.Charselect();
+            Visibility = Visibility.Hidden;
+            objCharselect.Show();
         }
         /// Opent pagina met de highscores zien, moet eerst gemerged worden
         private void BtnLeaderboard(object sender, RoutedEventArgs e)

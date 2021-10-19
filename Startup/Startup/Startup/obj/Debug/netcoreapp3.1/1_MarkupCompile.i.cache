@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\App.xaml
-315090777
+4537978714
 
-7-57688747
+8-464846692
 192-1533232326
-MainMenu.xaml;SplashScreen.xaml;StartScreen.xaml;
+Charselect.xaml;MainMenu.xaml;SplashScreen.xaml;StartScreen.xaml;
 
-False
+True
 

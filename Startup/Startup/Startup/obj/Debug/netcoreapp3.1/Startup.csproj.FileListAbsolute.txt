@@ -70,3 +70,5 @@ C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\
 C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1.dll
 C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\1.pdb
 C:\Users\Bart\Documents\GitHub\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Startup.genruntimeconfig.cache
+C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Charselect.g.cs
+C:\Users\Bart\OneDrive - NHL Stenden\Documents\GitHub\Github\Github\Project-Arcade\Startup\Startup\Startup\obj\Debug\netcoreapp3.1\Charselect.baml
