@@ -302,14 +302,29 @@ namespace Merch_1._0
         {
             DispatcherTimer timer = new DispatcherTimer();
             timer.Tick += new EventHandler(PowerUp1);
-            timer.Start();
             timer.Interval = new TimeSpan(0, 0, 1);
-            timer.Stop();
+            timer.Start();
         }
 
         private void PowerUp1(object source, EventArgs e)
         {           
             speed1 = +25;
+        }
+
+        private void TimerPowerUpEnd()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(PowerUpEnd);
+            timer.Interval = new TimeSpan(0, 0, 2);
+            timer.Start();
+        }
+
+        private void PowerUpEnd(object source, EventArgs e)
+        {
+            if (speed1 == 32)
+            {
+                speed1 = -25;
+            }
         }
 
         /// <summary>
