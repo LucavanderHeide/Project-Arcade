@@ -99,10 +99,10 @@
         <Rectangle x:Name="PowerUp"
                    Tag="Wortel"
             Fill="Orange" 
-            Height="111" 
-            Width="115"
-            Canvas.Left="351"
-            Canvas.Top="684"/>
+            Height="54" 
+            Width="58"
+            Canvas.Left="931"
+            Canvas.Top="554" RenderTransformOrigin="-0.282,-0.689"/>
 
     </Canvas>
 </Window>

@@ -163,3 +163,31 @@ C:\Git\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.AssemblyInfoInputs.cache
 C:\Git\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.AssemblyInfo.cs
 C:\Git\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.csproj.CoreCompileInputs.cache
 C:\Git\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.genruntimeconfig.cache
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.exe
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.deps.json
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.runtimeconfig.json
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.runtimeconfig.dev.json
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.dll
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\ref\Merge 1.0.dll
+E:\Git\Project-Arcade\3.0\Merch 1.0\bin\Debug\net5.0-windows\Merge 1.0.pdb
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.csproj.AssemblyReference.cache
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Gamewindow.g.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Highscore.g.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\SplashScreen.g.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\App.g.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0_MarkupCompile.cache
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0_MarkupCompile.lref
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Gamewindow.baml
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Highscore.baml
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\SplashScreen.baml
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.g.resources
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.AssemblyInfoInputs.cache
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.AssemblyInfo.cs
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.csproj.CoreCompileInputs.cache
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.dll
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\ref\Merge 1.0.dll
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.pdb
+E:\Git\Project-Arcade\3.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.genruntimeconfig.cache

@@ -24,16 +24,15 @@ namespace Merch_1._0
 
         private ImageBrush PlayerBrush1 = new ImageBrush();
         private ImageBrush PlayerBrush2 = new ImageBrush();
-        private ImageBrush WortelImage = new ImageBrush();
+        private ImageBrush Wortel = new ImageBrush();
         private bool MoveRight = false, MoveLeft = false, MoveUp = false, MoveDown = false;
         private bool MoveRight2 = false, MoveLeft2 = false, MoveUp2 = false, MoveDown2 = false;
-        private DispatcherTimer GameTimer = new DispatcherTimer();
-
-
-        
+        private DispatcherTimer GameTimer = new DispatcherTimer();        
 
         int speed1 = 7;        
         int speed2 = 7;
+        int speedBoost1 = 30;
+        int speedBoost2 = 30;
         Rect player1HitBox;
         Rect player2HitBox;
 
@@ -62,6 +61,9 @@ namespace Merch_1._0
 
             PlayerBrush2.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player2S.png"));
             Player2.Fill = PlayerBrush2;
+
+            Wortel.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Wortel.png"));
+            PowerUp.Fill = Wortel;
 
             //player 1
             if (MoveRight)
@@ -288,44 +290,55 @@ namespace Merch_1._0
                 {
                     if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
                     {
-                        TimerPowerUp();
-
+                        PowerUp1();
+                        TimerPowerUp1End();
                     }
                     if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
                     {
-                        TimerPowerUp();
+                        PowerUp2();
+                        TimerPowerUp2End();
                     }
                 }
             }
         }
-        private void TimerPowerUp()
+        //PowerUp voor player 1
+        private void PowerUp1()
+        {
+            speed1 = speedBoost1;
+        }
+
+        private void TimerPowerUp1End()
         {
             DispatcherTimer timer = new DispatcherTimer();
-            timer.Tick += new EventHandler(PowerUp1);
-            timer.Interval = new TimeSpan(0, 0, 1);
+            timer.Tick += new EventHandler(PowerUp1End);
+            timer.Interval = new TimeSpan(0, 0, 4);
             timer.Start();
         }
-
-        private void PowerUp1(object source, EventArgs e)
-        {           
-            speed1 = +25;
+        private void PowerUp1End(object source, EventArgs e)
+        {
+            speed1 = 7;
         }
 
-        private void TimerPowerUpEnd()
+
+        //PowerUp voor player 2
+        private void PowerUp2()
+        {
+            speed2 = speedBoost2;
+        }
+
+        private void TimerPowerUp2End()
         {
             DispatcherTimer timer = new DispatcherTimer();
-            timer.Tick += new EventHandler(PowerUpEnd);
-            timer.Interval = new TimeSpan(0, 0, 2);
+            timer.Tick += new EventHandler(PowerUp2End);
+            timer.Interval = new TimeSpan(0, 0, 4);
             timer.Start();
         }
-
-        private void PowerUpEnd(object source, EventArgs e)
+        private void PowerUp2End(object source, EventArgs e)
         {
-            if (speed1 == 32)
-            {
-                speed1 = -25;
-            }
+            speed2 = 7;
         }
+
+
 
         /// <summary>
         /// Verandert status naar true als knop wordt ingedrukt

@@ -20,6 +20,7 @@
     <None Remove="Images\Player2S.png" />
     <None Remove="Images\Quit.png" />
     <None Remove="Images\Reset1.png" />
+    <None Remove="Images\Wortel.png" />
     <None Remove="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
     <None Remove="Nijntje.png" />
     <None Remove="Reset.png" />
@@ -41,6 +42,7 @@
     <Resource Include="Images\kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
     <Resource Include="Images\Nijntje.png" />
     <Resource Include="Images\Reset.png" />
+    <Resource Include="Images\Wortel.png" />
   </ItemGroup>
 
 </Project>
