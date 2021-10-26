@@ -29,8 +29,8 @@ namespace Merch_1._0
 
         
 
-        int speed1 = 7;        
-        int speed2 = 7;
+        int speed1 = 5;        
+        int speed2 = 5;
 
 
         public Window1()
@@ -125,8 +125,8 @@ namespace Merch_1._0
                 Ellipse Lijn1 = new Ellipse
                 {
                     Tag = "Lijn1",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red
 
@@ -143,8 +143,8 @@ namespace Merch_1._0
                 Ellipse Lijn1 = new Ellipse
                 {
                     Tag = "Lijn1",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red
 
@@ -160,8 +160,8 @@ namespace Merch_1._0
                 Ellipse Lijn1 = new Ellipse
                 {
                     Tag = "Lijn1",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red
 
@@ -177,8 +177,8 @@ namespace Merch_1._0
                 Ellipse Lijn1 = new Ellipse
                 {
                     Tag = "Lijn1",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red
 
@@ -197,8 +197,8 @@ namespace Merch_1._0
                 Ellipse Lijn2 = new Ellipse
                 {
                     Tag = "Lijn2",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Yellow,
                     Stroke = Brushes.Yellow
 
@@ -214,8 +214,8 @@ namespace Merch_1._0
                 Ellipse Lijn2 = new Ellipse
                 {
                     Tag = "Lijn2",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Yellow,
                     Stroke = Brushes.Yellow
 
@@ -231,8 +231,8 @@ namespace Merch_1._0
                 Ellipse Lijn2 = new Ellipse
                 {
                     Tag = "Lijn2",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Yellow,
                     Stroke = Brushes.Yellow
 
@@ -248,8 +248,8 @@ namespace Merch_1._0
                 Ellipse Lijn2 = new Ellipse
                 {
                     Tag = "Lijn2",
-                    Height = 20,
-                    Width = 20,
+                    Height = 10,
+                    Width = 10,
                     Fill = Brushes.Yellow,
                     Stroke = Brushes.Yellow
 

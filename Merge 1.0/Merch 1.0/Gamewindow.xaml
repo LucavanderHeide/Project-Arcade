@@ -6,40 +6,40 @@
         xmlns:local="clr-namespace:Merch_1._0"
         mc:Ignorable="d"
        
-        Title="Gamewindow" Height="1080" Width="1920">
+        Title="Gamewindow" Height="450" Width="800">
     <Canvas x:Name="Gamecanvas" Focusable="True" KeyDown="Gamecanvas_KeyDown" KeyUp="Gamecanvas_KeyUp" Background="#27CF59">
 
         <Rectangle x:Name="Player1" 
                    Fill="red" 
-                   Height="111" 
-                   Width="115"
-                   Canvas.Left="177"
-                   Canvas.Top="279">
+                   Height="55" 
+                   Width="57"
+                   Canvas.Left="71"
+                   Canvas.Top="136">
         </Rectangle>
 
         <Rectangle x:Name="Player2" 
                    Fill="yellow" 
-                   Height="112" 
-                   Width="115"
-                   Canvas.Left="1631"
-                   Canvas.Top="768">
+                   Height="55" 
+                   Width="57"
+                   Canvas.Left="685"
+                   Canvas.Top="310">
         </Rectangle>
 
         <Label x:Name="Player1Score"
                Content="Score player 1: 0"
                Foreground="Red"
-               FontSize="32"
-               FontWeight="Bold" Canvas.Left="39" Canvas.Top="56" Height="75" Width="345"/>
+               FontSize="20"
+               FontWeight="Bold" Canvas.Left="71" Canvas.Top="10" Height="36" Width="195"/>
 
         <Label  x:Name="Player2Score"
                 Content="Score player 2: 0"
                 Foreground="Yellow"
-                FontSize="32"
-                FontWeight="Bold" Canvas.Left="1454" Canvas.Top="54" Height="75" Width="345"/>
+                FontSize="20"
+                FontWeight="Bold" Canvas.Left="547" Canvas.Top="10" Height="36" Width="195"/>
 
-        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="22" Width="1845" Canvas.Top="143" Canvas.Left="39" />
-        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="21" Width="1845" Canvas.Top="1001" Canvas.Left="39" />
-        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="859" Width="22" Canvas.Top="163" RenderTransformOrigin="0.5,0.5" Canvas.Left="39" >
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="20" Width="780" Canvas.Top="88" Canvas.Left="10" />
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="21" Width="736" Canvas.Top="395" Canvas.Left="32" />
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="308" Width="22" Canvas.Top="108" RenderTransformOrigin="0.5,0.5" Canvas.Left="10" >
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleY="-1"/>
@@ -49,7 +49,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="860" Width="22" Canvas.Top="151" RenderTransformOrigin="0.5,0.5" Canvas.Left="1862" >
+        <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="308" Width="22" Canvas.Top="108" RenderTransformOrigin="0.5,0.5" Canvas.Left="768" >
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleY="-1"/>
@@ -62,10 +62,10 @@
 
         <Button 
                 x:Name="Quit"
-                Width="82"
-                Height="84" 
-                Canvas.Left="1804" 
-                Canvas.Top="45" Click="QuitGame" BorderBrush="{x:Null}" Background="{x:Null}">
+                Width="58"
+                Height="59" 
+                Canvas.Left="732" 
+                Canvas.Top="10" Click="QuitGame" BorderBrush="{x:Null}" Background="{x:Null}">
 
             <Button.Resources>
                 <Style TargetType="Border">
@@ -79,10 +79,10 @@
 
         <Button
             x:Name="Reset"
-            Width="82"
-            Height="84" 
-            Canvas.Left="920" 
-            Canvas.Top="45" BorderBrush="White" Background="White" Click="ResetGame"
+            Width="58"
+            Height="59" 
+            Canvas.Left="371" 
+            Canvas.Top="10" BorderBrush="White" Background="White" Click="ResetGame"
             >
 
             <Button.Resources>
@@ -90,11 +90,9 @@
                     <Setter Property="CornerRadius" Value="60"/>
                 </Style>
             </Button.Resources>
-                <StackPanel>
-                 <Image Source="/Images/Reset1.png" />
-            </StackPanel>
-            
-            
+            <Image Source="/Images/Reset1.png" />
+
+
         </Button>
 
     </Canvas>

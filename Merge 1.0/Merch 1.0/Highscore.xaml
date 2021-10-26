@@ -5,22 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Merch_1._0"
         mc:Ignorable="d"
-        Title="Highscore" Height="1080" Width="1920">
+        Title="Highscore" Height="450" Width="800">
     <Canvas Background="Orange">
-        <Label Canvas.Left="621" Canvas.Top="58" FontSize="120" Background="{x:Null}" Foreground="White" FontWeight="Bold">High Scores</Label>
-        
-        
+        <Label Canvas.Left="200" Canvas.Top="6" FontSize="60" Background="{x:Null}" Foreground="White" FontWeight="Bold" Height="100" Width="400">High Scores</Label>
+
+
         <!-- Quitbtn hitbox moet nog aangepast worden-->
-        <Button BorderBrush="{x:Null}" Background="{x:Null}" Height="192" Width="192" Canvas.Left="10" Canvas.Top="17" Click="Quitbtn">
+        <Button BorderBrush="{x:Null}" Background="{x:Null}" Height="100" Width="100" Canvas.Left="10" Canvas.Top="17" Click="Quitbtn">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="100"/>
                 </Style>
             </Button.Resources>
-            <Image Source="/Images/Quit.png" Height="188" Width="188" />
+            <Image Source="/Images/Quit.png" Height="96" Width="97" />
         </Button>
-        <Image Height="424" Canvas.Left="10" Stretch="Fill" Source="Images/Nijntje.png" Canvas.Top="606" Width="522"/>
-        <Image Height="578" Canvas.Left="1481" Stretch="Fill" Source="Images/ballon.png" Canvas.Top="330" Width="314"/>
+        <Image Height="156" Stretch="Fill" Source="Images/Nijntje.png" Canvas.Top="246" Width="192" Canvas.Left="10"/>
+        <Image Height="247" Canvas.Left="630" Stretch="Fill" Source="Images/ballon.png" Canvas.Top="130" Width="129"/>
     </Canvas>
 </Window>
 

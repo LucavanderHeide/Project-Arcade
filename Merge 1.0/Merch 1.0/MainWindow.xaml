@@ -6,49 +6,55 @@
         xmlns:local="clr-namespace:Merch_1._0"
         mc:Ignorable="d"
         
-        Title="MainWindow" Height="1080" Width="1920" Background="Orange">
-    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        Title="MainWindow" Height="450" Width="800" Background="Orange">
+    <Canvas>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions>
+        <Image Source="/Images/Nijntje.png" Canvas.Left="254" Height="291" Width="292" />
+        <Image Source="/Images/ballon.png" Height="231" Canvas.Top="184" Width="126" Canvas.Left="595" />
 
-        <Image x:Name="Nijntje" Source="/Images/Nijntje.png" Margin="654,454,654,693"/>
 
-        <Image x:Name="Ballon"  Source="Images/ballon.png" Margin="1434,874,185,669" />
-
-        <Button x:Name="Spelen"
-                FontSize="80"
-                Content="Start"
+        <Button Height="71" 
+                Width="284" 
+                Canvas.Left="258" 
+                Canvas.Top="334"
                 Background="Green"
-                Margin="730,1379,730,589" Click="Spelen_Click" FontFamily="Cooper Black">
+                Content="Spelen"
+                FontSize="50" 
+                FontWeight="Bold" 
+                FontFamily="Cooper Black"
+                Click="Spelen_Click">
             <Button.Resources>
                 <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="CornerRadius" Value="15"></Setter>
                 </Style>
             </Button.Resources>
         </Button>
 
-        <Button x:Name="Menu" Margin="131,675,1538,1222" Background="{x:Null}" BorderBrush="{x:Null}" Click="Menubtn"
-                >
-            <StackPanel>
-                <Image Source="/Images/Menu.png" />
-            </StackPanel>
-
+        <Button Height="128" 
+                Width="132" 
+                Canvas.Left="26" 
+                Canvas.Top="29" 
+                Background="{x:Null}"
+                Click="Menubtn" BorderBrush="{x:Null}">
+            <Image Source="/Images/Menu.png" />
         </Button>
 
-        <Button x:Name="Quit" Margin="1652,570,94,1352" Background="{x:Null}" BorderBrush="{x:Null}" Click="Quitapp">
+        <Button Height="100"
+                Width="100" Canvas.Left="671" 
+                Canvas.Top="43"
+                Click="Quitapp" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Image Source="/Images/Quit.png" />
+
             <Button.Resources>
                 <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="80"/>
+                    <Setter Property="CornerRadius" Value="80">
+                    </Setter>
                 </Style>
             </Button.Resources>
-            
-            
-            <StackPanel>
-                <Image Source="/Images/Quit.png" />
-            </StackPanel>
         </Button>
-    </Grid>
+
+
+
+
+    </Canvas>
 </Window>
