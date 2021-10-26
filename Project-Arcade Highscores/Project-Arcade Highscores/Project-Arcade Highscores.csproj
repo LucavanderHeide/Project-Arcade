@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Project_Arcade_Highscores</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Ballonnen.PNG" />
+    <None Remove="Images\Nijntje.png" />
+    <None Remove="Images\Terugknop.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Ballonnen.PNG" />
+    <Resource Include="Images\Nijntje.png" />
+    <Resource Include="Images\Terugknop.PNG" />
+  </ItemGroup>
+
+</Project>
