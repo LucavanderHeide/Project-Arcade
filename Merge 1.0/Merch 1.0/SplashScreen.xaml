@@ -8,8 +8,9 @@
         ResizeMode="NoResize" WindowStyle="None" Background="#FAC831" WindowStartupLocation="CenterScreen"
         Title="SplashScreen" Height="450" Width="800">
     <StackPanel VerticalAlignment="Center">
-        <Image  Height="269" Width="332" Source="Images/Nijntje.png">
-        </Image>
+        <Image Source="/Images/Nijntje.png" Height="335" Width="382" />
+
+       
         <TextBlock FontSize="30" Foreground="Black" TextAlignment="Center">
             Nijntje Tron Game
         </TextBlock>

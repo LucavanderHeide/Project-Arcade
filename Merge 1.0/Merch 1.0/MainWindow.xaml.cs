@@ -46,5 +46,12 @@ namespace Merch_1._0
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Charmenu(object sender, RoutedEventArgs e)
+        {
+            Charselect keuze = new Charselect();
+            keuze.Visibility = Visibility.Visible;
+            this.Visibility = Visibility.Hidden;
+        }
     }
 }

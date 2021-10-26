@@ -38,7 +38,6 @@
     <Resource Include="Images\Quit.png" />
     <Resource Include="Images\Reset1.png" />
     <Resource Include="Images\kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
-    <Resource Include="Images\Nijntje.png" />
     <Resource Include="Images\Reset.png" />
   </ItemGroup>
 

@@ -79,3 +79,5 @@ C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Me
 C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.AssemblyInfo.cs
 C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.csproj.CoreCompileInputs.cache
 C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.genruntimeconfig.cache
+C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Charselect.g.cs
+C:\Users\lvand\Documents\Project\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Charselect.baml
