@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lvand\\Documents\\Project\\Merge 1.0\\Merch 1.0\\Merge 1.0.csproj",
+      "projectUniqueName": "C:\\Users\\lvand\\Desktop\\Merge 1.0\\Merch 1.0\\Merge 1.0.csproj",
       "projectName": "Merge 1.0",
-      "projectPath": "C:\\Users\\lvand\\Documents\\Project\\Merge 1.0\\Merch 1.0\\Merge 1.0.csproj",
+      "projectPath": "C:\\Users\\lvand\\Desktop\\Merge 1.0\\Merch 1.0\\Merge 1.0.csproj",
       "packagesPath": "C:\\Users\\lvand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lvand\\Documents\\Project\\Merge 1.0\\Merch 1.0\\obj\\",
+      "outputPath": "C:\\Users\\lvand\\Desktop\\Merge 1.0\\Merch 1.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

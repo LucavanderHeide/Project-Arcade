@@ -8,7 +8,7 @@
         
         Title="MainWindow" Height="450" Width="800" Background="Orange">
     <Canvas>
-        <Image Source="/Images/Nijntje.png" Canvas.Left="240" Height="321" Width="320" />
+        <Image Source="/Images/Nijntje.png" Canvas.Left="240" Height="320" Width="320" />
 
 
 
@@ -53,7 +53,7 @@
         </Button>
 
         <Button Click="Charmenu" Height="91" Width="107" Canvas.Left="26" Canvas.Top="314" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="/Images/charbut1.png" />
+            <Image Source="/Images/charbut1.png"/>
 
         </Button>
 
