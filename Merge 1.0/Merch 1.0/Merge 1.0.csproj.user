@@ -22,6 +22,9 @@
     <Compile Update="Highscore.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Name-invoeren.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SplashScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Gamewindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Name-invoeren.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SplashScreen.xaml">

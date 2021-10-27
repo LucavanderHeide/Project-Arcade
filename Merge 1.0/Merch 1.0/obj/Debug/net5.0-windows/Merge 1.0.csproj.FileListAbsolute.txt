@@ -154,3 +154,5 @@ C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\bin\Debug\net5.0-windows\runtimes\win
 C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Merge 1.0.csproj.CopyComplete
+C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Name-invoeren.g.cs
+C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\obj\Debug\net5.0-windows\Name-invoeren.baml

@@ -661,5 +661,8 @@ namespace Merch_1._0
             Window1 game = new Window1();
             game.Visibility = Visibility.Visible;
         }
+
+
+        
     }
 }

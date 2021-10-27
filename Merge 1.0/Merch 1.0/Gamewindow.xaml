@@ -29,17 +29,17 @@
                    Canvas.Top="310">
         </Rectangle>
 
-        <Label x:Name="p1scoretxt"
-               Content="Player 1"
-               Foreground="Red"
-               FontSize="20"
-               FontWeight="Bold" Canvas.Left="71" Canvas.Top="10" Height="36" Width="195"/>
+        <Label    x:Name="p1scoretxt"
+                    Content="Player 1"
+                    Foreground="Red"
+                    FontSize="20"
+                    FontWeight="Bold" Canvas.Left="71" Canvas.Top="10" Height="36" Width="195" Background="{x:Null}" BorderBrush="{x:Null}" />
 
-        <Label  x:Name="p2scoretxt"
-                Content="Player 2 "
-                Foreground="Yellow"
-                FontSize="20"
-                FontWeight="Bold" Canvas.Left="547" Canvas.Top="10" Height="36" Width="195"/>
+        <Label    x:Name="p2scoretxt"
+                  Content="Player 2"
+                    Foreground="Yellow"
+                    FontSize="20"
+                    FontWeight="Bold" Canvas.Left="510" Canvas.Top="10" Height="36" Width="195" Background="{x:Null}" BorderBrush="{x:Null}" />
 
         <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="20" Width="780" Canvas.Top="88" Canvas.Left="10" />
         <Rectangle Tag="wall" Fill="Yellow" StrokeThickness="3" Height="21" Width="736" Canvas.Top="395" Canvas.Left="32" />
