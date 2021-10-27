@@ -6,22 +6,108 @@
         xmlns:local="clr-namespace:Merch_1._0"
         mc:Ignorable="d"
         Title="Highscore" Height="450" Width="800">
-    <Canvas Background="Orange">
-        <Label Canvas.Left="200" Canvas.Top="6" FontSize="60" Background="{x:Null}" Foreground="White" FontWeight="Bold" Height="100" Width="400">High Scores</Label>
+    <Border Background="#FFFAC831">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <!--Tekst Highscores-->
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <Label Content="High Scores" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center" 
+                       FontWeight="Bold" 
+                       FontSize="48" 
+                       Background="{x:Null}" 
+                       Foreground="#FFF9F9F9" 
+                       Margin="0,15,0,0"
+                      ></Label>
+            </StackPanel>
+
+            <!--Terug knop, met plaatje-->
+            <Button Background="#FFFAC831" 
+                    BorderBrush="#FFFAC831"
+                    Click="Close_Click">
+
+                <StackPanel Grid.Row="0" Grid.Column="0">
+                    <Image Grid.Row="0" 
+                       Source="Images\quit.PNG" 
+                       Height="100"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center" 
+                       Stretch="Fill" >
+                    </Image>
+                </StackPanel>
+            </Button>
+
+            <!--Plaatje Nijntje-->
+            <Grid Grid.Row="1">
+                <Image 
+             Grid.Column="1" 
+             Source="Images\Nijntje.png" 
+             VerticalAlignment="Bottom" Height="149" 
+             Margin="0,0,0,19">
+                </Image>
+            </Grid>
+
+            <!--Database output-->
+            <Grid Grid.Row="1" Grid.Column="1">
+                <StackPanel 
+                    Orientation="Vertical"
+                    Grid.Column="1" 
+                    Grid.Row="1" 
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Margin="192,69,0,0"
+                    x:Name="HighScoresPanel"/>
+
+                <Label Content="Name" 
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left" 
+                       FontWeight="Bold" 
+                       FontSize="30" 
+                       Background="{x:Null}" 
+                       Foreground="#FFF9F9F9" 
+                       Margin="192,10,0,0" RenderTransformOrigin="0.549,1.699"
+                      ></Label>
+
+                <Label Content="Wins" 
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left" 
+                       FontWeight="Bold" 
+                       FontSize="30" 
+                       Background="{x:Null}" 
+                       Foreground="#FFF9F9F9" 
+                       Margin="325,10,0,0"
+                      ></Label>
 
 
-        <!-- Quitbtn hitbox moet nog aangepast worden-->
-        <Button BorderBrush="{x:Null}" Background="{x:Null}" Height="100" Width="100" Canvas.Left="10" Canvas.Top="17" Click="Quitbtn">
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="100"/>
-                </Style>
-            </Button.Resources>
-            <Image Source="/Images/Quit.png" Height="96" Width="97" />
-        </Button>
-        <Image Height="156" Stretch="Fill" Source="Images/Nijntje.png" Canvas.Top="246" Width="192" Canvas.Left="10"/>
-        <Image Height="247" Canvas.Left="630" Stretch="Fill" Source="Images/ballon.png" Canvas.Top="130" Width="129"/>
-    </Canvas>
+                <Image
+                   Grid.Row="1" Grid.Column="1"
+                    Source="Images\ballon.PNG" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Bottom" Height="250" Width="130">
+                </Image>
+            </Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+
+
+
+
+
+
+
+        </Grid>
+    </Border>
 </Window>
 
     

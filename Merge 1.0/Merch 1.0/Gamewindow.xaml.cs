@@ -23,14 +23,22 @@ namespace Merch_1._0
 
         private ImageBrush PlayerBrush1 = new ImageBrush();
         private ImageBrush PlayerBrush2 = new ImageBrush();
+        private ImageBrush Wortel = new ImageBrush();
+        private ImageBrush Wortel1 = new ImageBrush();
         private bool MoveRight = false, MoveLeft = false, MoveUp = false, MoveDown = false;
         private bool MoveRight2 = false, MoveLeft2 = false, MoveUp2 = false, MoveDown2 = false;
         private DispatcherTimer GameTimer = new DispatcherTimer();
 
-        
+        Rect player1HitBox;
+        Rect player2HitBox;
 
+        int p1score = 0;
+        int p2score = 0;
         int speed1 = 5;        
         int speed2 = 5;
+        int speedBoost1 = 10;
+        int speedBoost2 = 10;
+
 
 
         public Window1()
@@ -52,11 +60,20 @@ namespace Merch_1._0
         /// <param name="e"></param>
         private void GameEngine(object sender, EventArgs e)
         {
+            
+
+
             PlayerBrush1.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player1S.png"));
             Player1.Fill = PlayerBrush1;
 
             PlayerBrush2.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player2S.png"));
             Player2.Fill = PlayerBrush2;
+
+            Wortel.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Wortel.png"));
+            PowerUp.Fill = Wortel;
+
+            Wortel1.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Wortel.png"));
+            PowerUp11.Fill = Wortel1;
 
             //player 1
             if (MoveRight)
@@ -122,9 +139,9 @@ namespace Merch_1._0
             //lijnen maken Player 1
             if (MoveRight)
             {
-                Ellipse Lijn1 = new Ellipse
+                Rectangle Lijn1 = new Rectangle
                 {
-                    Tag = "Lijn1",
+                    Tag = "L1",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Red,
@@ -132,7 +149,7 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Player1.Height / 2);
                 Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
                 Gamecanvas.Children.Add(Lijn1);
             }
@@ -140,9 +157,9 @@ namespace Merch_1._0
 
             if (MoveLeft)
             {
-                Ellipse Lijn1 = new Ellipse
+                Rectangle Lijn1 = new Rectangle
                 {
-                    Tag = "Lijn1",
+                    Tag = "L1",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Red,
@@ -150,16 +167,16 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Player1.Height / 2);
                 Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
                 Gamecanvas.Children.Add(Lijn1);
             }
 
             if (MoveUp)
             {
-                Ellipse Lijn1 = new Ellipse
+                Rectangle Lijn1 = new Rectangle
                 {
-                    Tag = "Lijn1",
+                    Tag = "L1",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Red,
@@ -167,24 +184,26 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Player1.Height / 2);
                 Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
                 Gamecanvas.Children.Add(Lijn1);
             }
 
             if (MoveDown)
             {
-                Ellipse Lijn1 = new Ellipse
+                Rectangle Lijn1 = new Rectangle
                 {
-                    Tag = "Lijn1",
+
+                    Tag = "L1",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red
 
+
                 };
 
-                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Lijn1.Height / 2);
+                Canvas.SetTop(Lijn1, Canvas.GetTop(Player1) - Player1.Height / 2);
                 Canvas.SetLeft(Lijn1, Canvas.GetLeft(Player1) + Player1.Width / 2);
                 Gamecanvas.Children.Add(Lijn1);
             }
@@ -194,9 +213,9 @@ namespace Merch_1._0
 
             if (MoveDown2)
             {
-                Ellipse Lijn2 = new Ellipse
+                Rectangle Lijn2 = new Rectangle
                 {
-                    Tag = "Lijn2",
+                    Tag = "L2",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Yellow,
@@ -204,16 +223,16 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Player2.Height / 2);
                 Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
                 Gamecanvas.Children.Add(Lijn2);
             }
 
             if (MoveUp2)
             {
-                Ellipse Lijn2 = new Ellipse
+                Rectangle Lijn2 = new Rectangle
                 {
-                    Tag = "Lijn2",
+                    Tag = "L2",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Yellow,
@@ -221,16 +240,16 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Player2.Height / 2);
                 Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
                 Gamecanvas.Children.Add(Lijn2);
             }
 
             if (MoveRight2)
             {
-                Ellipse Lijn2 = new Ellipse
+                Rectangle Lijn2 = new Rectangle
                 {
-                    Tag = "Lijn2",
+                    Tag = "L2",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Yellow,
@@ -238,16 +257,16 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Player2.Height / 2);
                 Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
                 Gamecanvas.Children.Add(Lijn2);
             }
 
             if (MoveLeft2)
             {
-                Ellipse Lijn2 = new Ellipse
+                Rectangle Lijn2 = new Rectangle
                 {
-                    Tag = "Lijn2",
+                    Tag = "L2",
                     Height = 10,
                     Width = 10,
                     Fill = Brushes.Yellow,
@@ -255,13 +274,153 @@ namespace Merch_1._0
 
                 };
 
-                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Lijn2.Height);
+                Canvas.SetTop(Lijn2, Canvas.GetTop(Player2) - Player2.Height / 2);
                 Canvas.SetLeft(Lijn2, Canvas.GetLeft(Player2) + Player2.Width / 2);
                 Gamecanvas.Children.Add(Lijn2);
             }
 
-            
+            player1HitBox = new Rect(Canvas.GetLeft(Player1), Canvas.GetTop(Player1), Player1.Width, Player1.Height);
+            player2HitBox = new Rect(Canvas.GetLeft(Player2), Canvas.GetTop(Player2), Player2.Width, Player2.Height);
 
+            foreach (var x in Gamecanvas.Children.OfType<Rectangle>())
+            {
+                Rect hitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
+                if ((string)x.Tag == "wall")
+                {
+                    if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        
+
+                        MoveDown = false;
+                        MoveUp = false;
+                        MoveLeft = false;
+                        MoveRight = false;
+
+                        MoveDown2 = false;
+                        MoveUp2 = false;
+                        MoveLeft2 = false;
+                        MoveRight2 = false;
+
+
+
+                        Canvas.SetLeft(Player1, Canvas.GetLeft(resetrec));
+                        Canvas.SetTop(Player1, Canvas.GetTop(resetrec));
+                        Gamerestart reswin2 = new Gamerestart();
+                        reswin2.Visibility = Visibility.Visible;
+                        this.Visibility = Visibility.Hidden;
+                    }
+                    if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        
+
+                        MoveDown2 = false;
+                        MoveUp2 = false;
+                        MoveLeft2 = false;
+                        MoveRight2 = false;
+
+                        MoveDown = false;
+                        MoveUp = false;
+                        MoveLeft = false;
+                        MoveRight = false;
+
+                        Canvas.SetLeft(Player2, Canvas.GetLeft(resetrec));
+                        Canvas.SetTop(Player2, Canvas.GetTop(resetrec));
+                        Gamerestart2 reswin1 = new Gamerestart2();
+                        reswin1.Visibility = Visibility.Visible;
+                        this.Visibility = Visibility.Hidden;
+
+
+                        
+                    }
+
+                    if ((string)x.Tag == "L2")
+                    {
+                        if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                        {
+                           
+
+                            MoveDown2 = false;
+                            MoveUp2 = false;
+                            MoveLeft2 = false;
+                            MoveRight2 = false;
+
+                            MoveDown = false;
+                            MoveUp = false;
+                            MoveLeft = false;
+                            MoveRight = false;
+
+                            Canvas.SetLeft(Player2, Canvas.GetLeft(resetrec));
+                            Canvas.SetTop(Player2, Canvas.GetTop(resetrec));
+                            Gamerestart2 reswin1 = new Gamerestart2();
+                            reswin1.Visibility = Visibility.Visible;
+                            this.Visibility = Visibility.Hidden;
+
+
+                        }
+                    }
+
+                    if ((string)x.Tag == "L1")
+                    {
+
+                        if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                        {
+                            
+
+                            MoveDown = false;
+                            MoveUp = false;
+                            MoveLeft = false;
+                            MoveRight = false;
+
+                            MoveDown2 = false;
+                            MoveUp2 = false;
+                            MoveLeft2 = false;
+                            MoveRight2 = false;
+
+
+
+                            Canvas.SetLeft(Player1, Canvas.GetLeft(resetrec));
+                            Canvas.SetTop(Player1, Canvas.GetTop(resetrec));
+                            Gamerestart reswin2 = new Gamerestart();
+                            reswin2.Visibility = Visibility.Visible;
+                            this.Visibility = Visibility.Hidden;
+
+                        }
+                    }
+                }
+
+                if ((string)x.Tag == "Wortel")
+                {
+                    if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        PowerUp1();
+                        TimerPowerUp1End();
+                    }
+                    if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        PowerUp2();
+                        TimerPowerUp2End();
+                    }
+                }
+
+                if ((string)x.Tag == "Wortel1")
+                {
+                    if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        PowerUp3();
+                        TimerPowerUp3End();
+                    }
+                    if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        PowerUp4();
+                        TimerPowerUp4End();
+                    }
+                }
+
+
+
+
+
+            }
 
 
 
@@ -270,7 +429,99 @@ namespace Merch_1._0
 
         }
 
-        
+        //PowerUp voor player 1
+        private void PowerUp1()
+        {
+            speed1 = speedBoost1;
+            Canvas.SetLeft(PowerUp, Canvas.GetLeft(resetrec));
+            Canvas.SetTop(PowerUp, Canvas.GetTop(resetrec));
+            PowerUp.Visibility = Visibility.Hidden;
+        }
+
+        private void PowerUp3()
+        {
+            speed1 = speedBoost1;
+            Canvas.SetLeft(PowerUp11, Canvas.GetLeft(resetrec));
+            Canvas.SetTop(PowerUp11, Canvas.GetTop(resetrec));
+            PowerUp11.Visibility = Visibility.Hidden;
+        }
+        private void TimerPowerUp1End()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(PowerUp1End);
+            timer.Interval = new TimeSpan(0, 0, 4);
+            timer.Start();
+        }
+
+        private void TimerPowerUp3End()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(PowerUp1End);
+            timer.Interval = new TimeSpan(0, 0, 4);
+            timer.Start();
+        }
+        private void PowerUp1End(object source, EventArgs e)
+        {
+            speed1 = 5;
+            
+        }
+
+        private void PowerUp4End(object source, EventArgs e)
+        {
+            speed1 = 5;
+
+        }
+
+
+        //PowerUp voor player 2
+        private void PowerUp2()
+        {
+            speed2 = speedBoost2;
+            Canvas.SetLeft(PowerUp, Canvas.GetLeft(resetrec));
+            Canvas.SetTop(PowerUp, Canvas.GetTop(resetrec));
+            PowerUp.Visibility = Visibility.Hidden;
+
+        }
+
+        private void PowerUp4()
+        {
+            speed2 = speedBoost2;
+            Canvas.SetLeft(PowerUp11, Canvas.GetLeft(resetrec));
+            Canvas.SetTop(PowerUp11, Canvas.GetTop(resetrec));
+            PowerUp11.Visibility = Visibility.Hidden;
+
+        }
+
+
+        private void TimerPowerUp2End()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(PowerUp2End);
+            timer.Interval = new TimeSpan(0, 0, 4);
+            timer.Start();
+        }
+
+        private void TimerPowerUp4End()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(PowerUp2End);
+            timer.Interval = new TimeSpan(0, 0, 4);
+            timer.Start();
+        }
+        private void PowerUp2End(object source, EventArgs e)
+        {
+            speed2 = 5;
+        }
+
+        private void PowerUp3End(object source, EventArgs e)
+        {
+            speed2 = 5;
+        }
+
+
+
+
+
         /// <summary>
         /// Verandert status naar true als knop wordt ingedrukt
         /// </summary>
@@ -398,6 +649,14 @@ namespace Merch_1._0
         /// <param name="e"></param>
         private void ResetGame(object sender, RoutedEventArgs e)
         {
+            this.Close();
+            Window1 game = new Window1();
+            game.Visibility = Visibility.Visible;
+        }
+
+        private void Gameover()
+        {
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
             this.Close();
             Window1 game = new Window1();
             game.Visibility = Visibility.Visible;

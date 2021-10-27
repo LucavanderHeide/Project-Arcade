@@ -1,0 +1,18 @@
+﻿<Window x:Class="Merch_1._0.Gamerestart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Merch_1._0"
+        mc:Ignorable="d"
+        Title="Gamerestart1" Height="200" Width="200">
+    <Canvas Background="Orange">
+        <Label Canvas.Left="22" Canvas.Top="15" FontSize="12" FontWeight="Bold" Height="51" Width="156">Speler 2 heeft gewonnen</Label>
+        <Button Height="100" Width="100" Canvas.Left="50" Canvas.Top="66" Click="Button_Click" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Image Source="/Images/Reset1.png" />
+
+        </Button>
+
+
+    </Canvas>
+</Window>

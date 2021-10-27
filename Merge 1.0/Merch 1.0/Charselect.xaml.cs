@@ -24,24 +24,25 @@ namespace Merch_1._0
             InitializeComponent();
         }
 
-        private void Char_1(object sender, RoutedEventArgs e)
+        public void Char_1(object sender, RoutedEventArgs e)
         {
-
+            int Char1 = 1;
+           
         }
 
-        private void Char_1_1(object sender, RoutedEventArgs e)
+        public void Char_1_1(object sender, RoutedEventArgs e)
         {
-
+            int Char1_1 = 2;
         }
 
-        private void Char_2(object sender, RoutedEventArgs e)
+        public void Char_2(object sender, RoutedEventArgs e)
         {
-
+            int Char_2 = 3;
         }
 
-        private void Char_2_1(object sender, RoutedEventArgs e)
+        public void Char_2_1(object sender, RoutedEventArgs e)
         {
-
+            int Char_2 = 4;
         }
 
         private void Quit(object sender, RoutedEventArgs e)

@@ -28,9 +28,15 @@
     <None Remove="Images\Quit.png" />
     <None Remove="Images\Reset1.png" />
     <None Remove="Images\Splashscreen.png" />
+    <None Remove="Images\Wortel.png" />
     <None Remove="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
     <None Remove="Nijntje.png" />
     <None Remove="Reset.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -57,6 +63,7 @@
     <Resource Include="Images\kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
     <Resource Include="Images\Reset.png" />
     <Resource Include="Images\Splashscreen.png" />
+    <Resource Include="Images\Wortel.png" />
   </ItemGroup>
 
 </Project>
