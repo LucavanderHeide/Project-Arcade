@@ -26,7 +26,7 @@ namespace Merch_1._0
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window1 game = new Window1();
+            Name_invoeren game = new Name_invoeren();
             game.Visibility = Visibility.Visible;
             this.Visibility = Visibility.Hidden;
         }

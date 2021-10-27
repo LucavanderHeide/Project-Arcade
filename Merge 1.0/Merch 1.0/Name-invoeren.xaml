@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Name_invoeren" Height="450" Width="800">
     <Canvas Background="Orange">
-        <Label FontFamily="Cooper Black" Content="Voer je naam in voor speler 1 en speler 2" Canvas.Left="28" Canvas.Top="28" Background="{x:Null}" FontSize="36" FontWeight="Bold"></Label>
+        <Label FontFamily="Cooper Black" Content="Voer je naam in voor speler 1 en speler 2" Canvas.Left="28" Canvas.Top="28" Background="{x:Null}" FontSize="30" FontWeight="Bold"></Label>
 
         <Image Source="/Images/Nijntje.png" Height="168" Canvas.Top="256" Width="168" />
 
@@ -33,5 +33,20 @@
                 </Style>
             </Button.Resources>
         </Button>
+
+        <Button Height="100"
+                Width="100" Canvas.Left="690" 
+                Canvas.Top="10"
+                Click="Button_Click_1" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Image Source="/Images/Quit.png" Height="61" Width="61" />
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="80">
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
     </Canvas>
 </Window>

@@ -38,6 +38,8 @@ namespace Merch_1._0
         int speed2 = 5;
         int speedBoost1 = 10;
         int speedBoost2 = 10;
+       public static int winp1 = 0;
+       public static int winp2 = 0;
 
         
 
@@ -303,7 +305,7 @@ namespace Merch_1._0
                         MoveLeft2 = false;
                         MoveRight2 = false;
 
-
+                        winp2++;
 
                         Canvas.SetLeft(Player1, Canvas.GetLeft(resetrec));
                         Canvas.SetTop(Player1, Canvas.GetTop(resetrec));
@@ -325,6 +327,8 @@ namespace Merch_1._0
                         MoveLeft = false;
                         MoveRight = false;
 
+                        winp1++;
+
                         Canvas.SetLeft(Player2, Canvas.GetLeft(resetrec));
                         Canvas.SetTop(Player2, Canvas.GetTop(resetrec));
                         Gamerestart2 reswin1 = new Gamerestart2();
@@ -333,60 +337,6 @@ namespace Merch_1._0
 
 
                         
-                    }
-
-                    if ((string)x.Tag == "L2")
-                    {
-                        if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
-                        {
-                           
-
-                            MoveDown2 = false;
-                            MoveUp2 = false;
-                            MoveLeft2 = false;
-                            MoveRight2 = false;
-
-                            MoveDown = false;
-                            MoveUp = false;
-                            MoveLeft = false;
-                            MoveRight = false;
-
-                            Canvas.SetLeft(Player2, Canvas.GetLeft(resetrec));
-                            Canvas.SetTop(Player2, Canvas.GetTop(resetrec));
-                            Gamerestart2 reswin1 = new Gamerestart2();
-                            reswin1.Visibility = Visibility.Visible;
-                            this.Visibility = Visibility.Hidden;
-
-
-                        }
-                    }
-
-                    if ((string)x.Tag == "L1")
-                    {
-
-                        if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
-                        {
-                            
-
-                            MoveDown = false;
-                            MoveUp = false;
-                            MoveLeft = false;
-                            MoveRight = false;
-
-                            MoveDown2 = false;
-                            MoveUp2 = false;
-                            MoveLeft2 = false;
-                            MoveRight2 = false;
-
-
-
-                            Canvas.SetLeft(Player1, Canvas.GetLeft(resetrec));
-                            Canvas.SetTop(Player1, Canvas.GetTop(resetrec));
-                            Gamerestart reswin2 = new Gamerestart();
-                            reswin2.Visibility = Visibility.Visible;
-                            this.Visibility = Visibility.Hidden;
-
-                        }
                     }
                 }
 
@@ -418,10 +368,66 @@ namespace Merch_1._0
                     }
                 }
 
+                if ((string)x.Tag == "L2")
+                {
+                    if (player1HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
 
 
+                        MoveDown2 = false;
+                        MoveUp2 = false;
+                        MoveLeft2 = false;
+                        MoveRight2 = false;
+
+                        MoveDown = false;
+                        MoveUp = false;
+                        MoveLeft = false;
+                        MoveRight = false;
+
+                        winp2++;
+
+                        Canvas.SetLeft(Player2, Canvas.GetLeft(resetrec));
+                        Canvas.SetTop(Player2, Canvas.GetTop(resetrec));
+                        Gamerestart2 reswin1 = new Gamerestart2();
+                        if (!Application.Current.Windows.OfType<Gamerestart>().Any())
+                        {
+                            Gamerestart v2 = new Gamerestart();
+                            v2.Visibility = Visibility.Visible;
+                            this.Visibility = Visibility.Hidden;
+                        }
+                    }
+                }
+
+                if ((string)x.Tag == "L1")
+                {
+
+                    if (player2HitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
 
 
+                        MoveDown = false;
+                        MoveUp = false;
+                        MoveLeft = false;
+                        MoveRight = false;
+
+                        MoveDown2 = false;
+                        MoveUp2 = false;
+                        MoveLeft2 = false;
+                        MoveRight2 = false;
+
+                        winp1++;
+
+                        Canvas.SetLeft(Player1, Canvas.GetLeft(resetrec));
+                        Canvas.SetTop(Player1, Canvas.GetTop(resetrec));
+                        Gamerestart reswin2 = new Gamerestart();
+                        if (!Application.Current.Windows.OfType<Gamerestart2>().Any())
+                        {
+                            Gamerestart2 v2 = new Gamerestart2();
+                            v2.Visibility = Visibility.Visible;
+                            this.Visibility = Visibility.Hidden;
+                        }
+                    }
+                }
             }
 
 
@@ -656,13 +662,7 @@ namespace Merch_1._0
             game.Visibility = Visibility.Visible;
         }
 
-        private void Gameover()
-        {
-            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
-            this.Close();
-            Window1 game = new Window1();
-            game.Visibility = Visibility.Visible;
-        }
+       
 
 
         
