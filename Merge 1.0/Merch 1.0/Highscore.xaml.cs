@@ -25,18 +25,12 @@ namespace Merch_1._0
     {
         Dictionary<string, int> highscores = new Dictionary<string, int>();
         const string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\lvand\\Desktop\\Merge 1.0\\Merch 1.0\\Data\\GameDatabase.mdf\";Integrated Security=True";
-                                                                                            //C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\Data\GameDatabase.mdf
+        //C:\Users\lvand\Desktop\Merge 1.0\Merch 1.0\Data\GameDatabase.mdf
 
         public Highscore()
         {
             InitializeComponent();
 
-            GetHighScores();
-            CreateLabels();
-        }
-
-        private void Refresh_Click(object sender, RoutedEventArgs e)
-        {
             GetHighScores();
             CreateLabels();
         }
@@ -49,10 +43,6 @@ namespace Merch_1._0
 
         }
 
-        private void Insert_Click(object sender, RoutedEventArgs e)
-        {
-            SetHighScores();
-        }
         private void GetHighScores()
         {
             highscores.Clear();
@@ -76,34 +66,6 @@ namespace Merch_1._0
                 reader.Close();
             }
         }
-
-        private void SetHighScores()
-        {
-            //todo insert into database
-
-            string query1 = "INSERT INTO [Highscores] ([Player],[Wins]) VALUES ('Jan','42')";
-            string query2 = "INSERT INTO [Highscores] ([Player],[Wins]) VALUES ('Piet','43')";
-
-            SqlConnection connection = new SqlConnection(connectionString);
-
-            SqlCommand command = new SqlCommand();
-            try
-            {
-                command.CommandText = query2;
-                command.CommandType = CommandType.Text;
-                command.Connection = connection;
-                connection.Open();
-                command.ExecuteNonQuery();
-                connection.Close();
-                MessageBox.Show("Gelukt!");
-            }
-            catch (Exception e)
-            {
-                connection.Close();
-                MessageBox.Show(e.Message);
-            }
-        }
-
 
         private void CreateLabels()
         {
