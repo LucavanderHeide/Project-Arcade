@@ -14,8 +14,8 @@
         <Label FontFamily="Cooper Black" FontSize="30" Canvas.Left="146" Canvas.Top="142" Height="45" Width="170" Content="   Speler 1" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <Label FontFamily="Cooper Black" FontSize="30" Canvas.Left="465" Canvas.Top="142" Height="45" Width="170" Content="   Speler 2" BorderBrush="{x:Null}" Background="{x:Null}"/>
 
-        <TextBox FontFamily="Cooper Black" FontSize="20" Canvas.Left="146" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <TextBox FontFamily="Cooper Black" FontSize="20" Canvas.Left="465" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox x:Name="Speler1" FontFamily="Cooper Black" FontSize="20" Canvas.Left="146" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="Speler2" FontFamily="Cooper Black" FontSize="20" Canvas.Left="465" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" BorderBrush="{x:Null}" Background="{x:Null}"/>
         <Image Source="/Images/ballon.png" Height="186" Canvas.Top="233" Width="101" Canvas.Left="671" />
         <Button Height="71" 
                 Width="284" 

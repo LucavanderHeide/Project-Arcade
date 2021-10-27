@@ -19,16 +19,25 @@ namespace Merch_1._0
     /// </summary>
     public partial class Name_invoeren : Window
     {
+        public static string speler1 = "";
+        public static string speler2 = "";
+
         public Name_invoeren()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
             Window1 game = new Window1();
             game.Visibility = Visibility.Visible;
             this.Visibility = Visibility.Hidden;
+
+            speler1 = Speler1.Text;
+            speler2 = Speler2.Text;
         }
+
+
+
     }
 }

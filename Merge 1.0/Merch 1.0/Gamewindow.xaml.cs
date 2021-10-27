@@ -39,7 +39,7 @@ namespace Merch_1._0
         int speedBoost1 = 10;
         int speedBoost2 = 10;
 
-
+        
 
         public Window1()
         {
@@ -60,7 +60,9 @@ namespace Merch_1._0
         /// <param name="e"></param>
         private void GameEngine(object sender, EventArgs e)
         {
-            
+
+            p1scoretxt.Content = Name_invoeren.speler1;
+            p2scoretxt.Content = Name_invoeren.speler2;
 
 
             PlayerBrush1.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Player1S.png"));
