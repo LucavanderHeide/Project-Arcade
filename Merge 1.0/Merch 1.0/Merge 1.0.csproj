@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Merch_1._0</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\589878bdcba9841eabab6189.png" />
+    <None Remove="Images\589878bdcba9841eabab6189_-_kopie.png" />
+    <None Remove="Images\charbut.png" />
+    <None Remove="Images\charbut1.png" />
+    <None Remove="Images\Menu.png" />
+    <None Remove="Images\Nijntje.png" />
+    <None Remove="Images\Nijntje2c.png" />
+    <None Remove="Images\Nijntje2p2_png.png" />
+    <None Remove="Images\Nijntje_png.png" />
+    <None Remove="Images\Player1L.png" />
+    <None Remove="Images\Player1N.png" />
+    <None Remove="Images\Player1R.png" />
+    <None Remove="Images\Player1S.png" />
+    <None Remove="Images\Player2L.png" />
+    <None Remove="Images\Player2N.png" />
+    <None Remove="Images\Player2R.png" />
+    <None Remove="Images\Player2S.png" />
+    <None Remove="Images\Quit.png" />
+    <None Remove="Images\Reset1.png" />
+    <None Remove="Images\Splashscreen.png" />
+    <None Remove="Images\Wortel.png" />
+    <None Remove="kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
+    <None Remove="Nijntje.png" />
+    <None Remove="Reset.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\589878bdcba9841eabab6189.png" />
+    <Resource Include="Images\589878bdcba9841eabab6189_-_kopie.png" />
+    <Resource Include="Images\ballon.png" />
+    <Resource Include="Images\charbut.png" />
+    <Resource Include="Images\charbut1.png" />
+    <Resource Include="Images\Menu.png" />
+    <Resource Include="Images\Nijntje.png" />
+    <Resource Include="Images\Nijntje2c.png" />
+    <Resource Include="Images\Nijntje2p2_png.png" />
+    <Resource Include="Images\Nijntje_png.png" />
+    <Resource Include="Images\Player1L.png" />
+    <Resource Include="Images\Player1N.png" />
+    <Resource Include="Images\Player1R.png" />
+    <Resource Include="Images\Player1S.png" />
+    <Resource Include="Images\Player2L.png" />
+    <Resource Include="Images\Player2N.png" />
+    <Resource Include="Images\Player2R.png" />
+    <Resource Include="Images\Player2S.png" />
+    <Resource Include="Images\Quit.png" />
+    <Resource Include="Images\Reset1.png" />
+    <Resource Include="Images\kisspng-here-s-miffy-miffy-and-friends-image-netherlands-miffy-orange-dress-png-photos-png-5b630bb40bd427.7315009115332177160485.jpg" />
+    <Resource Include="Images\Reset.png" />
+    <Resource Include="Images\Splashscreen.png" />
+    <Resource Include="Images\Wortel.png" />
+  </ItemGroup>
+
+</Project>
