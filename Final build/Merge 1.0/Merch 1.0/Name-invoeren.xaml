@@ -1,0 +1,52 @@
+﻿<Window x:Class="Merch_1._0.Name_invoeren"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Merch_1._0"
+        mc:Ignorable="d"
+        Title="Name_invoeren" Height="450" Width="800">
+    <Canvas Background="Orange">
+        <Label FontFamily="Cooper Black" Content="Voer je naam in voor speler 1 en speler 2" Canvas.Left="28" Canvas.Top="28" Background="{x:Null}" FontSize="30" FontWeight="Bold"></Label>
+
+        <Image Source="/Images/Nijntje.png" Height="168" Canvas.Top="256" Width="168" />
+
+        <Label FontFamily="Cooper Black" FontSize="30" Canvas.Left="146" Canvas.Top="142" Height="45" Width="170" Content="   Speler 1" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Label FontFamily="Cooper Black" FontSize="30" Canvas.Left="465" Canvas.Top="142" Height="45" Width="170" Content="   Speler 2" BorderBrush="{x:Null}" Background="{x:Null}"/>
+
+        <TextBox x:Name="Speler1" FontFamily="Cooper Black" FontSize="20" Canvas.Left="146" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="Speler2" FontFamily="Cooper Black" FontSize="20" Canvas.Left="465" Canvas.Top="211" Height="45" Width="170" Text="  Voer naam in" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Image Source="/Images/ballon.png" Height="186" Canvas.Top="233" Width="101" Canvas.Left="671" />
+        <Button Height="71" 
+                Width="284" 
+                Canvas.Left="258" 
+                Canvas.Top="334"
+                Background="Green"
+                Content="Start"
+                FontSize="50" 
+                FontWeight="Bold" 
+                FontFamily="Cooper Black"
+                Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Height="100"
+                Width="100" Canvas.Left="690" 
+                Canvas.Top="10"
+                Click="Button_Click_1" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Image Source="/Images/Quit.png" Height="61" Width="61" />
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="80">
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Canvas>
+</Window>
