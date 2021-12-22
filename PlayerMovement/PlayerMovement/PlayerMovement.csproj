@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Player1E.png" />
+    <None Remove="Images\Player1L.png" />
+    <None Remove="Images\Player1N.png" />
+    <None Remove="Images\Player1R.png" />
+    <None Remove="Images\Player1S.png" />
+    <None Remove="Images\Player1W.png" />
+    <None Remove="Images\Player2L.png" />
+    <None Remove="Images\Player2N.png" />
+    <None Remove="Images\Player2R.png" />
+    <None Remove="Images\Player2S.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Player1E.png" />
+    <Resource Include="Images\Player1L.png" />
+    <Resource Include="Images\Player1N.png" />
+    <Resource Include="Images\Player1R.png" />
+    <Resource Include="Images\Player1S.png" />
+    <Resource Include="Images\Player1W.png" />
+    <Resource Include="Images\Player2L.png" />
+    <Resource Include="Images\Player2N.png" />
+    <Resource Include="Images\Player2R.png" />
+    <Resource Include="Images\Player2S.png" />
+  </ItemGroup>
+
+</Project>
