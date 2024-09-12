@@ -1,0 +1,29 @@
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.exe
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.deps.json
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.runtimeconfig.json
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.runtimeconfig.dev.json
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.pdb
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.csproj.AssemblyReference.cache
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\App.g.cs
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores_MarkupCompile.cache
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores_MarkupCompile.lref
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.g.resources
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.AssemblyInfoInputs.cache
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.AssemblyInfo.cs
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.csproj.CoreCompileInputs.cache
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.pdb
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\obj\Debug\netcoreapp3.1\Project-Arcade Highscores.genruntimeconfig.cache
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\School\Jaar 1\3. Programmeren 1\Opgeslagen\Project-Arcade Highscores\Project-Arcade Highscores\bin\Debug\netcoreapp3.1\Project-Arcade Highscores.dll.config
